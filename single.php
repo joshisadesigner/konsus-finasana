@@ -10,7 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main col-xs-12" role="main">
+		<main id="main" class="site-main" role="main">
 
 		<?php
 		while ( have_posts() ) : the_post();
@@ -23,13 +23,13 @@ get_header(); ?>
 							<div class='img-single'><?php the_post_thumbnail(150, 150 , 50); ?> </div>
 						</div>
 						<div class="col-xs-8 header-wrap-single">
-							<div class="title-article-single"><?php the_title( '<h1>', '</h1>' ); ?></div> 
-							<div class="desc-single-post"> 
-								<?php finasana_posted_on(); ?> | <?php echo  get_the_author();  ?> 
+							<div class="title-article-single"><?php the_title( '<h1>', '</h1>' ); ?></div>
+							<div class="desc-single-post">
+								<?php finasana_posted_on(); ?> | <?php echo  get_the_author();  ?>
 							</div>
 							<div class='categories-single'> Category: <?php  echo get_the_category_list(); ?> </div>
 						</div>
-					</div> 
+					</div>
 				</div>
 
 				<div class="col-lg-6 col-md-12 content-single-wrap ">
@@ -37,7 +37,7 @@ get_header(); ?>
 						<div class='content-article'>
 							<?php the_content() ?>
 						</div>
-					</div> 
+					</div>
 				</div>
 			</div>
 

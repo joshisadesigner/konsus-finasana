@@ -20,8 +20,8 @@
 
 		<header class='header'>
 			 <div class="header-content">
-			 	<a href="<?php echo bloginfo('url'); ?>"><img src="http://finasana.com/wp-content/uploads/2016/07/Logo_finasana.png" width="110"></a> 
+			 	<a href="<?php echo bloginfo('url'); ?>"><img src="http://finasana.com/wp-content/uploads/2016/07/Logo_finasana.png" width="110"></a>
 			 </div>
-		</header>   
+		</header>
 
-<section class="main-content col-xs-12">
+<section class="main-content container">
